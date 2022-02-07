@@ -1,0 +1,8 @@
+package MaquinaVending;
+
+public class Deposito {
+
+	
+	private float valor;
+	private int cantidad;
+}

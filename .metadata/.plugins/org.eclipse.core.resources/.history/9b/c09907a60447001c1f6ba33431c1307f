@@ -1,0 +1,16 @@
+package PracticaFinalEv1;
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		BBDD BBDD = new BBDD();
+		BBDD.AddArrays();
+		interfaz a = new interfaz();
+		//a.setVisible(true);
+	}
+
+}

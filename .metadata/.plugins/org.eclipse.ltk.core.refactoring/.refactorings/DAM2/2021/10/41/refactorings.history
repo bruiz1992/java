@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;practica3.Ficheros.BorrarElemento(...)&apos; to &apos;BorrarVuelo&apos;&#x0D;&#x0A;- Original project: &apos;DAM2&apos;&#x0D;&#x0A;- Original element: &apos;practica3.Ficheros.BorrarElemento(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;practica3.Ficheros.BorrarVuelo(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;BorrarElemento&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;practica3{Ficheros.java[Ficheros~BorrarElemento~I" name="BorrarVuelo" references="true" stamp="1634152187962" version="1.0"/>
+</session>

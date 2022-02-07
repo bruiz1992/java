@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Downloads/mysql-connector-java-5.1.46.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/bcprov-jdk15on-1.68.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/castor-core-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/castor-xml-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/commons-beanutils-1.9.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/ecj-3.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/itext-2.1.7.js9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/jackson-annotations-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/jackson-core-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/jackson-databind-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/jasperreports-6.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Benjamin/Desktop/Nueva carpeta/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

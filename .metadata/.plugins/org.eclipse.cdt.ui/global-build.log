@@ -1,0 +1,42 @@
+
+Invoking autoreconf in build directory: C:/Users/Benjamin/eclipse-workspace/pruebaC/
+
+
+Configuration failed with error
+(sh -c "autoreconf -i" 
+Cannot run program "sh": Launching failed
+
+Error: Program "sh" not found in PATH
+PATH=[C:/Program Files/Java/jdk-14/bin/server;C:/Program Files/Java/jdk-14/bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files (x86)\BaseX\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Benjamin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Benjamin\AppData\Local\Programs\Python\Python310\;C:\Users\Benjamin\AppData\Local\Microsoft\WindowsApps;C:\Users\Benjamin\AppData\Local\GitHubDesktop\bin;C:\Users\Benjamin\.dotnet\tools;C:\WINDOWS\system32]
+)Build stopped
+()17:19:34 **** Incremental Build of configuration Build (GNU) for project pruebaC ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-14/bin/server;C:/Program Files/Java/jdk-14/bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files (x86)\BaseX\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Benjamin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Benjamin\AppData\Local\Programs\Python\Python310\;C:\Users\Benjamin\AppData\Local\Microsoft\WindowsApps;C:\Users\Benjamin\AppData\Local\GitHubDesktop\bin;C:\Users\Benjamin\.dotnet\tools;C:\WINDOWS\system32]
+
+**** Build of configuration Debug for project prueba ****
+
+Nothing to build for project prueba
+
+Invoking autoreconf in build directory: C:/Users/Benjamin/eclipse-workspace/pruebaC/
+
+
+Configuration failed with error
+(sh -c "autoreconf -i" 
+Cannot run program "sh": Launching failed
+
+Error: Program "sh" not found in PATH
+PATH=[C:/Program Files/Java/jdk-14/bin/server;C:/Program Files/Java/jdk-14/bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files (x86)\BaseX\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Benjamin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Benjamin\AppData\Local\Programs\Python\Python310\;C:\Users\Benjamin\AppData\Local\Microsoft\WindowsApps;C:\Users\Benjamin\AppData\Local\GitHubDesktop\bin;C:\Users\Benjamin\.dotnet\tools;C:\WINDOWS\system32]
+)Build stopped
+()17:23:12 **** Incremental Build of configuration Build (GNU) for project pruebaC ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jdk-14/bin/server;C:/Program Files/Java/jdk-14/bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files (x86)\BaseX\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Benjamin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Benjamin\AppData\Local\Programs\Python\Python310\;C:\Users\Benjamin\AppData\Local\Microsoft\WindowsApps;C:\Users\Benjamin\AppData\Local\GitHubDesktop\bin;C:\Users\Benjamin\.dotnet\tools;C:\WINDOWS\system32]
+
+**** Build of configuration Debug for project pruebas ****
+
+Nothing to build for project pruebas

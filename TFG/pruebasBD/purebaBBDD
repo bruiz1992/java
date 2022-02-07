@@ -1,0 +1,7 @@
+MYSQL *myData;
+
+// Intentar iniciar MySQL:
+if(!(myData = mysql_init(0))) {
+   // Imposible crear el objeto myData
+   return 1;
+}

@@ -1,0 +1,5 @@
+package RobotModular;
+
+public class ModuloEstatico extends Modulo {
+
+}

@@ -1,0 +1,29 @@
+package tema2;
+import java.util.Scanner;
+
+public class EjercicioIfElse {
+
+	public static void main(String[] args) {
+
+		String linea;
+		Scanner entrada = new Scanner (System.in);
+		
+		// Recogida de informacion: PRIMER NUMERO
+		System.out.print("Por favor, introduce un numero: ");
+		linea = entrada.next();
+		int primerNumero;
+		primerNumero = Integer.parseInt( linea );
+
+		// Recogida de informacion: SEGUNDO NUMERO
+		System.out.print("introduce otro, por favor: ");
+		linea = entrada.next();
+		int segundoNumero;
+		segundoNumero = Integer.parseInt( linea );
+
+
+
+
+
+
+	}
+}

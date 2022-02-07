@@ -1,0 +1,145 @@
+package practica3;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+public class Ficheros {
+
+	ArrayList<Paquete> Paquetes = new ArrayList<Paquete>();
+	ArrayList<Vuelo> Vuelos = new ArrayList<Vuelo>();
+	ArrayList<Hotel> Hoteles = new ArrayList<Hotel>();
+	File Practica3FPaq = new File("src/" + "FPAQ.txt");
+	File Practica3FVu = new File("src/" + "FVU.txt");
+	File Practica3FHo = new File("src/" + "FHO.txt");
+
+	public Ficheros() {
+
+		try {
+			Practica3FPaq.createNewFile();
+			Practica3FVu.createNewFile();
+			Practica3FHo.createNewFile();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	public String CrearVuelo(String empresa, Date ida, Date vuelta, float precioV, String destino) {
+		Vuelo nuevo = new Vuelo(empresa, ida, vuelta, precioV, destino);
+		Vuelos.add(nuevo);
+		String salida;
+		if (ida.before(vuelta) == false) {
+			salida = "La fecha es erronea compruebela";
+		} else {
+			try {
+				BufferedWriter escribir = new BufferedWriter((new FileWriter(Practica3FVu.getAbsoluteFile(), true)));
+				for (int i = 0; i < Vuelos.size(); i++) {
+					escribir.write(Vuelos.get(i).toString());
+				}
+				escribir.write("\n");
+
+				escribir.close();
+
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			salida = "Vuelo añadidos a BBDD";
+		}
+		return salida;
+	}
+
+	public String ListarVuelos() {
+
+		String salida = "La lista de Vuelos actual es:" + "\n";
+		try {
+			String Linea;
+			BufferedReader leer = new BufferedReader(new FileReader(Practica3FVu));
+			while ((Linea = leer.readLine()) != null) {
+				salida = salida + Linea + "\n";
+
+			}
+
+			leer.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return salida;
+
+	}
+
+	public void ContarBBDD() {
+		int nvuelos = Vuelos.size();
+		int nhotel = Hoteles.size();
+		int npaquete = Paquetes.size();
+		if (nvuelos == 0) {
+
+		} else {
+			Vuelos.get(0).setContador(nvuelos);
+		}
+		if (nhotel == 0) {
+		} else {
+			Hoteles.get(0).setContador(nhotel);
+		}
+		if (npaquete == 0) {
+		} else {
+			Paquetes.get(0).setContador(npaquete);
+		}
+	}
+
+	public void AddArrays() {
+		try {
+			try {
+				String Linea;
+				String empresa = "0";
+				String destino = "", idaS = "", vueltas = "", precioS = "";
+				float precioV;
+				Date ida;
+				Date vuelta;
+				BufferedReader leer = new BufferedReader(new FileReader(Practica3FVu));
+				DateFormat id = new SimpleDateFormat("dd/MM/yyyy");
+
+				int contador = 0;
+				while ((Linea = leer.readLine()) != null) {
+					String[] lineaEntera = Linea.split("\t");
+					System.out.println(lineaEntera[1].toString());
+					lineaEntera[1] = empresa;
+					lineaEntera[2] = idaS;
+					ida = id.parse(idaS);
+					lineaEntera[3] = vueltas;
+					vuelta = id.parse(vueltas);
+					lineaEntera[4] = precioS;
+					precioV = Float.parseFloat(precioS);
+					lineaEntera[5] = destino;
+					Vuelo nuevo = new Vuelo(empresa, ida, vuelta, precioV, destino);
+					Vuelos.add(nuevo);
+
+				}
+
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

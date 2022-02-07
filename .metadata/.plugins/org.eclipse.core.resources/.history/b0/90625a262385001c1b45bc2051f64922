@@ -1,0 +1,35 @@
+package pruebas;
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class prueba1 extends JFrame {
+
+	public static void main(String[] args) {
+	
+		JFrame.setDefaultLookAndFeelDecorated(true);
+		JFrame frame = new JFrame("Flow layot itaca");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+		
+		JButton jb1 = new JButton("ads");
+		JButton jb2 = new JButton("asddd");
+		JButton jb3 = new JButton("tercer");
+		
+		
+		JPanel panel = new JPanel();
+		panel.setLayout(new FlowLayout());
+		
+		panel.add(jb1);
+		panel.add(jb2);
+		panel.add(jb3);
+		
+		frame.add(panel);
+		frame.pack();
+		frame.setVisible(true);
+	}
+
+}

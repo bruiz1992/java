@@ -1,0 +1,13 @@
+package pruebas;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class escuchadorBoton implements ActionListener {
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		System.out.println("has pulsado un boton");
+	}
+
+}

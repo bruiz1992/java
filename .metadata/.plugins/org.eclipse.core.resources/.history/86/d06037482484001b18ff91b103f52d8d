@@ -1,0 +1,14 @@
+package Tema5.Tenis;
+
+public class Jugador {
+
+	
+	String nombre;
+	String apellido;
+	int puntoganador;
+	int errornoforzado;
+	int saquedirecto;
+	
+	
+	
+}

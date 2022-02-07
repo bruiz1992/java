@@ -1,0 +1,140 @@
+package practica3;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ProgramaViajes {
+
+	public static void main(String[] args) {
+
+		boolean salir = false;
+		Scanner entrada = new Scanner(System.in);
+		int opcionMenu;
+		Ficheros BBDD = new Ficheros();
+		BBDD.AddArrays();
+		System.out.println(BBDD.Vuelos.get(0).getContador());
+		while (salir == false) {
+
+			System.out.println("OPCIONES DE MENU");
+			System.out.println("1.Gestionar Vuelos");
+			System.out.println("2.Gestionar Hoteles");
+			System.out.println("3.Gestionar paquete");
+			System.out.println("4.Listar productos no asociados");
+
+			opcionMenu = entrada.nextInt();
+
+			if (opcionMenu == 1) {
+
+				System.out.println("Gestionar Vuelos");
+				System.out.println("1 Añadir vuelos");
+				System.out.println("2.listar vuelos");
+				System.out.println("3.modificar vuelos");
+				System.out.println("4.borrar vuelo");
+
+				int opcion1 = entrada.nextInt();
+				if (opcion1 == 1) {
+					String empresa, destino, ida, vuelta;
+					try {
+						Float precio;
+						System.out.println("Añadir vuelo");
+						System.out.println("indique el nombre de la empresa");
+						empresa = entrada.nextLine();
+						empresa = entrada.nextLine();
+						System.out.println("indique la fecha de ida en formato dd/mm/yyyy");
+						ida = entrada.nextLine();
+						DateFormat id = new SimpleDateFormat("dd/MM/yyyy");
+						Date fecha1 = id.parse(ida);
+						System.out.println("indique la fecha de vuelta dd/mm/yyyy");
+						vuelta = entrada.nextLine();
+						Date fecha2 = id.parse(vuelta);
+						System.out.println("indique el precio");
+						precio = entrada.nextFloat();
+						System.out.println("indique la ciudad de destino");
+						destino = entrada.nextLine();
+						destino = entrada.nextLine();
+						System.out.println(BBDD.CrearVuelo(empresa, fecha1, fecha2, precio, destino));
+
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+						System.out.println("Formato de fecha erroneo compruebelo");
+					}
+				}
+				if (opcion1 == 2) {
+					System.out.println("listar vuelos");
+					System.out.println(BBDD.ListarVuelos());
+
+				}
+				if (opcion1 == 3) {
+					System.out.println("modificar vuelos");
+
+				}
+				if (opcion1 == 4) {
+					System.out.println("borrar vuelo");
+
+				}
+			}
+			if (opcionMenu == 2) {
+
+				System.out.println("Gestionar Hoteles");
+				System.out.println("1 Añadir Hotel");
+				System.out.println("2.listar Hoteles");
+				System.out.println("3.modificar Hotel");
+				System.out.println("4.borrar Hotel");
+
+				int opcion1 = entrada.nextInt();
+				if (opcion1 == 1) {
+					System.out.println("Añadir Hotel");
+
+				}
+				if (opcion1 == 2) {
+					System.out.println("listar Hoteles");
+					opcion1 = entrada.nextInt();
+
+				}
+				if (opcion1 == 3) {
+					System.out.println("modificar Hotel");
+
+				}
+				if (opcion1 == 4) {
+					System.out.println("borrar Hotel");
+
+				}
+			}
+			if (opcionMenu == 3) {
+
+				System.out.println("Gestionar paquetes");
+				System.out.println("1 Añadir paquetes");
+				System.out.println("2.listar paquetes");
+				System.out.println("3.modificar paquetes");
+				System.out.println("4.borrar paquetes");
+
+				int opcion1 = entrada.nextInt();
+				if (opcion1 == 1) {
+					System.out.println("Añadir paquetes");
+
+				}
+				if (opcion1 == 2) {
+					System.out.println("listar paquetes");
+					opcion1 = entrada.nextInt();
+
+				}
+				if (opcion1 == 3) {
+					System.out.println("modificar paquetes");
+
+				}
+				if (opcion1 == 4) {
+					System.out.println("borrar paquetes");
+
+				}
+			}
+
+		}
+	}
+
+}

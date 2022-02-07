@@ -1,0 +1,23 @@
+package tema2;
+import java.util.Scanner;
+
+
+public class OpercionifAnidado {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		// 
+		String a = "uno", b = "dos", c = "tres", d = "cuatro", e = "cinco", f = "siete", g = "ocho", H = "nueve", i = "diez";
+		
+		
+		System.out.print("Por favor, introduce un numero del 1 al 10: ");
+		int numero = (entrada.nextInt());
+		
+		if (numero == 1) {
+			System.out.print("El resultado es " + a);
+		
+		System.out.print("prueba " + numero + " ");
+
+	}
+
+}

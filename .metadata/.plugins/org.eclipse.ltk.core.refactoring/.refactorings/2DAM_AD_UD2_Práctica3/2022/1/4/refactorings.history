@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;textField_2&apos; in &apos;Practica2.InterUsuario&apos; to &apos;pasword&apos;&#x0D;&#x0A;- Original project: &apos;2DAM_AD_UD2_Práctica3&apos;&#x0D;&#x0A;- Original element: &apos;Practica2.InterUsuario.textField_2&apos;&#x0D;&#x0A;- Renamed element: &apos;Practica2.InterUsuario.pasword&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;textField_2&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;Practica2{InterUsuario.java[InterUsuario^textField_2" name="pasword" references="true" setter="false" stamp="1643298783542" textual="false" version="1.0"/>
+</session>

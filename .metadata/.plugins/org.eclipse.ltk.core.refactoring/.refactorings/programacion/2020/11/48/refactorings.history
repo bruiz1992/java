@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;tema2.Ejercicio_11&apos; to &apos;primosAnteriores&apos;&#x0D;&#x0A;- Original project: &apos;programacion&apos;&#x0D;&#x0A;- Original element: &apos;tema2.Ejercicio_11&apos;&#x0D;&#x0A;- Renamed element: &apos;tema2.primosAnteriores&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ejercicio_11&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;tema2{Ejercicio_11.java[Ejercicio_11" matchStrategy="1" name="primosAnteriores" qualified="false" references="true" similarDeclarations="false" stamp="1606139984129" textual="false" version="1.0"/>
+</session>

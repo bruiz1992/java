@@ -1,0 +1,4 @@
+0	Melia	Madrid	22/06/2019	3	15.0	Total: 45.0	Asociado:Asociado
+1	Nh	Zgz	22/10/1010	3	22.0	Total: 66.0	Asociado:Pendiente
+2	Luxor	Cuenca	22/06/2019	3	15.0	Total: 45.0	Asociado:Pendiente
+3	Miau	Zgz	22/10/1010	3	33.0	Total: 99.0	Asociado:Asociado

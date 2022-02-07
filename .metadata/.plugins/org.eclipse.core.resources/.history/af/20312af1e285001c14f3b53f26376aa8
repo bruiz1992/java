@@ -1,0 +1,7 @@
+package pruebas;
+
+import java.awt.event.ActionListener;
+
+public class escuchadorBoton implements ActionListener {
+
+}

@@ -1,0 +1,2 @@
+ID paquete: 0	1	0	Iberia	22/10/2021	23/10/2021	12.0	madrid	 Asociado: Asociado	0	Melia	Madrid	22/06/2019	3	15.0	Total: 45.0	Asociado:Asociado	Precio Total: 57.0
+ID paquete: 1	paquete	4	yjtyut	24/10/2021	25/10/2021	656.0	mallorc	 Asociado: Asociado	3	Miau	Zgz	22/10/1010	3	33.0	Total: 99.0	Asociado:Asociado	Precio Total: 755.0

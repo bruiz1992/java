@@ -1,0 +1,75 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+void main () {
+	int fd[2],fa[2];
+	long int X;
+	long int Y;
+	pid_t pid;
+	long int inicio;
+	long int suma1;
+	long int parte;
+	long int suma2;
+	long int final;
+	long int total;
+	pipe(fd);
+	pipe(fa);
+	
+	printf("indique un numero:\n");
+	scanf("%ld", &inicio);
+	printf("numero del DNI(como numero par) %ld\n", inicio);
+	scanf("%ld", &final);
+	parte = final/2;
+	int pid2;
+	int pid1 = fork();
+	
+	
+	
+	
+	if(pid==-1){
+		printf("Error al lanzar el proceso:\n");
+		exit(-1);
+	}
+	
+	
+	
+	//primera suma
+	 if(pid1==0){
+	for (int i =inicio ; i < parte ; i++){
+	suma1 = suma1 + i;
+	}
+	X = suma1;
+	printf("primer proceso hijo %ld\n", suma1);
+	close(fd[0]);
+	write(fd[1], &X,sizeof(long int));
+	pid2 = fork();
+	
+	//segunda suma
+	if(pid2==0){
+	
+	
+	for (int i =final ; i > parte ; i--){
+	suma2 = suma2 + i;
+	}
+	Y = 2;
+	printf("segundo proceso: %ld\n", suma2);
+	close(fa[0]);
+	write(fa[1], &Y,sizeof(long int));
+		}}
+	else{
+	
+	close(fd[1]);
+	read(fd[0], &suma1, sizeof(long int));
+	
+	close(fa[1]);
+	read(fa[0], &suma2, sizeof(long int));
+	
+	
+	//ultima suma
+	total = suma1+ suma2;
+	printf("lecturavariables:%ld\n",total);
+	wait(NULL);
+	}}

@@ -1,0 +1,19 @@
+package tema2;
+import java.util.Scanner;
+
+
+public class OpercionifAnidado {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		//variables:
+		
+		
+		System.out.print("Por favor, introduce un numero del 1 al 10: ");
+		int numero = (entrada.nextInt());
+		
+		System.out.print("prueba " + numero + " ");
+
+	}
+
+}

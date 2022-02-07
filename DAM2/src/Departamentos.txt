@@ -1,0 +1,6 @@
+0	rrhh
+1	informatica
+2	marcketing
+3	ventas
+4	contabilidad
+5	formacion

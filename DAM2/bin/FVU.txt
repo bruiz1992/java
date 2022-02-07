@@ -1,0 +1,5 @@
+0	Iberia	22/10/2021	23/10/2021	12.0	madrid	 Asociado: Asociado
+1	Vueling	22/11/2021	23/11/2021	15.0	Cuenca	 Asociado: Pendiente
+2	Iberia	23/10/2021	23/10/2021	12.0	Barna	 Asociado: Pendiente
+3	pepeFly	18/10/2021	28/10/2021	12.0	Zgz	 Asociado: Pendiente
+4	yjtyut	24/10/2021	25/10/2021	656.0	mallorc	 Asociado: Asociado

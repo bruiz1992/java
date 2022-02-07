@@ -1,0 +1,68 @@
+package tema3;
+import java.util.Scanner;
+
+
+public class Matriz_Traspuesta {
+
+	public static int[][] generar_matriz(int n, int m) {
+		int[][] matriz = new int[n][m];
+		int aleatorio = (int) ((Math.random() * 10));
+		for (int x=0; x < matriz.length; x++) {
+			  for (int y=0; y < matriz[x].length; y++) {
+			    matriz[x][y] = (int) (Math.random()*10);
+				
+			  }
+			  
+			}
+		
+		return (matriz);
+	}
+	public static int[][] generar_matrizb(int n, int m) {
+		int[][] matriz = new int[n][m];
+		int aleatorio = (int) ((Math.random() * 10));
+		for (int x=0; x < matriz.length; x++) {
+			  for (int y=0; y < matriz[x].length; y++) {
+			    matriz[x][y] = (int) (Math.random()*10);
+				
+			  }
+			  
+			}
+		
+		return (matriz);
+	}
+    static void visualizar(int[][] matriz){
+        for(int i=0;i<matriz.length;i++){
+            for(int j=0;j<matriz[i].length;j++){
+                System.out.print(matriz[i][j] + "\t");
+            }
+            System.out.println();
+        }
+    }
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		System.out.println("Indique el tamaño del alto de la matriz");
+		int opcion = s.nextInt();
+		System.out.println("Indique el tamaño del ancho de la matriz");
+		int opcion2 = s.nextInt();
+		int[][] matriz = generar_matriz(opcion, opcion2);
+		visualizar(matriz);
+		System.out.println();
+		int opcion3 = s.nextInt();
+		int[][] matrizb = generar_matrizb(opcion2, opcion);
+		for (int x=0; x < matriz.length; x++) {
+			  for (int y=0; y < matriz[x].length; y++) {
+			    matrizb[y][x] = matriz[x][y];
+			  }
+			}
+		
+		
+		System.out.println();
+		
+		visualizar(matrizb);
+	}
+
+}

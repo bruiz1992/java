@@ -1,0 +1,3 @@
+2008	benja	ruiz	25000.0
+1234	joege	murillo	22000.0
+4567	aaron	miau	22000.0
